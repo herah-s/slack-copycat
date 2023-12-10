@@ -1,0 +1,61 @@
+.sidebar {
+  background-color: #261c25;
+  color: white;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar .badges .badge.active {
+  background-color: #514951;
+  padding: 10px;
+  opacity: 1;
+}
+
+.sidebar .badges .badge {
+opacity: 0.6;
+}
+
+.navbar {
+  background-color: #4b3949;
+  color: white;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.navbar p {
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  opacity: .7;
+  font-weight: lighter;
+}
+
+.navbar .name-workspace {
+  font-weight: bold;
+  font-size: 30px;
+  opacity: 1;
+}
+
+.navbar .active-channel, .navbar .channels, .navbar .direct-messages {
+  font-weight: bold;
+  opacity: 1;
+}
+
+.navbar .fa-circle {
+  font-size: 8px;
+}
+
+.sidebar .badges a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sidebar .badges a:hover {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  opacity: 1;
+}
